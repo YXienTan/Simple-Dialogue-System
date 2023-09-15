@@ -108,6 +108,11 @@ public class DialogueManager : MonoBehaviour
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
 
+        foreach (Transform child in responseBox)
+        {
+            Destroy(child.gameObject);
+        }
+
         currentDialogues = null;
         currentActors = null;
         currentChoices = false;
