@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 036abba2afd31884d902eb0c3a4f44a8, type: 3}
+  m_Name: C1-R1-C2
+  m_EditorClassIdentifier: 
+  dialogues:
+  - actorId: 0
+    text: I see, do you need gear?
+  actors:
+  - name: David
+  choices: 1
+  responses:
+  - responsesPrefab: {fileID: 4675101746927851417, guid: cdbc9d92bbade4942b24fdbdd2696d5a,
+      type: 3}
+    nextConversation: {fileID: 11400000, guid: af013d1881993bc4db68eeaf58949a74, type: 2}
+  - responsesPrefab: {fileID: 4675101746927851417, guid: 575fa968f0dab3b44b88d3655faab36d,
+      type: 3}
+    nextConversation: {fileID: 11400000, guid: 8b37b584ed0ad144e887ffbabe9d04c6, type: 2}
